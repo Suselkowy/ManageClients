@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <aside class="aside__left">
+            <div class="customer__list__header">Customer list:</div>
+            <div class="customer__list">
+
+            </div>
+        </aside>
+        <aside class="aside__right">
+            <form action="" class="customer__form">
+                <input type="hidden" name="id" id="id" value="">
+                <div class="customer__form--field">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" , name="name">
+                    <div class="hidden customer__form__error customer__form__error--name"></div>
+                </div>
+                <div class="customer__form--field">
+                    <label for="vatId">VAT identification number</label>
+                    <input type="text" id="vatId" , name="vatId">
+                    <div class="hidden customer__form__error customer__form__error--vatId"></div>
+                </div>
+                <div class="customer__form--field">
+                    <label for="adress">Adress</label>
+                    <input type="text" id="address" name="address">
+                    <div class="hidden customer__form__error customer__form__error--address"></div>
+                </div>
+
+                <input type="submit" name="submit" class="submit form--btn" value="Add customer">
+                <input type="reset" name="reset" class="reset form--btn hidden" value="Cancel">
+            </form>
+        </aside>
+    </main>
+</body>
+
+</html>
